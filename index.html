@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Acciojob | Frontend-2 Contest-3</title>
+    <link
+      rel="stylesheet"
+      href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <div class="form-field">
+          <label for="user-email">Email</label>
+          <input
+            id="user-email"
+            type="email"
+            placeholder="Example@email.com" />
+          <small
+            id="email-err"
+            class="error-msg">
+            Make sure email is more than 3 characters and has @ and a .
+          </small>
+        </div>
+        <div class="form-field">
+          <label for="user-password">Password</label>
+          <input
+            id="user-password"
+            type="password"
+            placeholder="Your Password" />
+          <small
+            id="password-err"
+            class="error-msg">
+            Make sure password is more than 8 characters.
+          </small>
+        </div>
+        <small class="success-msg hide">All good to go!</small>
+        <button
+          class="btn"
+          type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
